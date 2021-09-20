@@ -18,5 +18,3 @@ Route::get('/', function () {
 });
 
 Route::resource('articles', App\Http\Controllers\ArticleController::class);
-
-
